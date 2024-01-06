@@ -1,4 +1,3 @@
-// Step 1: Create an interface named Logger
 package Week5;
 
 interface Logger {
@@ -12,10 +11,10 @@ public class App { //Declares class as app
         Logger spacedLogger = new SpacedLogger(); // This is creating an object of the AsteriskLogger class
         //implements the Logger interface.
 
-        asteriskLogger.log("Welcome to the game..."); //Printing log using Asterisk log method
-        asteriskLogger.error("Failed to connect"); //Printing error using Asterisk error method
+        asteriskLogger.log("Welcome to the game..."); //Printing log using Asterisk log method ".log" is used to call the log method
+        asteriskLogger.error("Failed to connect"); //Printing error using Asterisk error method ".error" is used to call the error method
 
-        spacedLogger.log("Goodbye"); //Printing log using Spaced log method
-        spacedLogger.error("Logging user out"); //Printing error using Asterisk error method
+        spacedLogger.log("Goodbye"); //Printing log using Spaced log method ".log" is used to call the log method
+        spacedLogger.error("Logging user out"); //Printing error using Asterisk error method ".error" is used to call the error method
     }
 }
